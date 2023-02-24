@@ -1,0 +1,103 @@
+{
+  "Projects": "Các dự án",
+  "Project": "Dự án",
+  "project": "Dự án",
+  "Project Name": "Tên dự án",
+  "New Project": "Thêm mới dự án",
+  "Address": "Địa chỉ",
+  "Manager": "Quản trị",
+
+  "Dashboard": "Bảng điều khiển",
+  "Models": "Mô hình",
+  "Issues": "Vấn đề",
+  "Members": "Thành viên dự án",
+  "Libraries": "Thư viện",
+  "Documents": "Tài liệu",
+  "Home": "Trang chủ",
+  "Admin": "Quản trị",
+  "Users": "Người dùng",
+  "Roles": "Vai trò",
+  "System Parameters": "Tham số hệ thống",
+  "Departments": "Phòng ban",
+  "Reports": "Báo cáo",
+  "Document Tags": "Thẻ nhãn tài liệu",
+  "Issue Statuses": "Trạng thái vấn đề",
+  "status": "Trạng thái",
+  "Issue Types": "Loại vấn đề",
+  "Building Types": "Loại công trình",
+
+  "Add new": "Thêm mới",
+  "Edit": "Cập nhật",
+  "Action": "Hành động",
+
+  "Status": "T. Thái",
+  "Type": "Kiểu",
+  "Title": "Tiêu đề",
+  "Name": "Tên",
+  "Revision": "Phiên bản",
+  "Created At": "Ngày tạo",
+  "Creator": "Người tạo",
+  "Description": "Mô tả",
+  "Descp": "Mô tả",
+
+  "Full Name": "Họ và tên",
+  "Username": "Tài khoản",
+
+  "Role Name": "Tên vai trò",
+
+  "Param Name": "Tên tham số",
+  "Param Code": "Mã tham số",
+  "Value": "Giá trị",
+
+  "Department Name": "Tên phòng ban",
+  "Department Code": "Mã phòng ban",
+  "Leader": "Lãnh đạo",
+
+  "Reporter": "Người b. cáo",
+  "Assigned to": "Gán cho",
+  "Assigned To": "Gán cho",
+  "Due Date": "Thời hạn",
+
+  "Issue List": "Danh mục vấn đề",
+  "issue": "Vấn đề",
+  "Open Issues": "Các vấn đề mở",
+  "Closed Issues": "Các vấn đề đã đóng",
+
+  "Project Members": "Thành viên dự án",
+
+  "document": "Tài liệu",
+  "Audit": "Kiểm duyệt",
+  "Parent directory": "Thư mục cha",
+  "Pdf file": "Tệp tin PDF",
+  "Shares": "Chia sẻ với",
+  "member": "Thành viên",
+
+  "Role": "Vai trò",
+
+  "Model Name": "Tên mô hình",
+
+  "Tag Name": "Tên thẻ nhãn",
+
+  "Database": "Cơ sở dữ liệu",
+  "Database Backups": "Sao lưu cơ sở dữ liệu",
+  "Database Backup": "Sao lưu cơ sở dữ liệu",
+  "databaseBackup": "Sao lưu cơ sở dữ liệu",
+  "Backup file": "Tệp sao lưu",
+  "Restore": "Khôi phục",
+  "restore": "Khôi phục",
+  "Backup Type": "Phương thức sao lưu",
+
+  "Are you sure?": "Bạn có chắc chắn?",
+  "Yes": "Có",
+  "No": "Không",
+
+  "Asset Attributes": "TT Tài sản",
+  "Docs": "Tài liệu",
+  "Inspect": "Thông tin",
+  "Categories": "Thể loại",
+  "Structures": "Cấu trúc",
+  "Revisions": "Phiên bản",
+
+  "Identification": "Định danh",
+  "Properties": "Thuộc tính"
+}

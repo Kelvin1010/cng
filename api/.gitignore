@@ -1,0 +1,7 @@
+node_modules
+database.db
+*.db
+data/*
+uploads/*.*
+# !data/database.db
+*.zip

@@ -1,0 +1,36 @@
+.ant-tabs-content {
+  height: calc(100vh - 64px - 80px);
+
+}
+
+.customPanel {
+  height: 100%;
+
+  .ant-collapse-content-box {
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 100%;
+    position: relative;
+  }
+
+  .ant-collapse-content-active {
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+
+.customPanel.IssuesPanel {
+  .ant-collapse-content-box {
+    padding-left: 0;
+  }
+
+  .ant-table-thead>tr>th,
+  .ant-table-tbody>tr>td,
+  .ant-table tfoot>tr>th,
+  .ant-table tfoot>tr>td {
+    position: relative;
+    padding: 4px 4px;
+    overflow-wrap: break-word;
+  }
+}

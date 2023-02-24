@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "fullName": "Admin",
+  "username": "admin",
+  "email": "admin@cngl.com",
+  "passwd": "admin@cngl",
+  "active": true,
+  "roleId": 2
+}

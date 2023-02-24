@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "name": "name",
+      "default": "Anh NG",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "default": "18",
+      "type": "number"
+    },
+    {
+      "name": "gender",
+      "default": "male",
+      "type": "[male, female]"
+    },
+    {
+      "name": "interests",
+      "default": "[]",
+      "type": "[game, football, movie, music]"
+    }
+  ],
+  "maps": []
+}

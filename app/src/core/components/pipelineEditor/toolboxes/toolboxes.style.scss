@@ -1,0 +1,36 @@
+/* ================= */
+
+.dndnode {
+  height: 40px;
+  padding: 4px;
+  padding-left: 6px;
+  border: 1px solid #1a192b;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  cursor: grab;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.dndnode.input {
+  border-color: #cccccc;
+}
+
+.dndnode.output {
+  border-color: #ff0072;
+}
+
+.reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.selectall {
+  margin-top: 10px;
+}

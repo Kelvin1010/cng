@@ -1,0 +1,248 @@
+/* html, body {
+    height: 100%;
+    background: #f2f2f2;
+    touch-action: none;
+} */
+
+/* body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.50;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    overflow: hidden;
+} */
+
+#myViewer {
+    display: flex;
+    flex-grow: 1;
+    width: calc(100vw - 90px - 330px);
+    height: calc(100vh - 85px);
+    align-items: stretch;
+    z-index: 10;
+    /*overflow: hidden;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    --left: 0;
+    --right: 0;
+    transition: all 300ms ease-in-out;
+}
+
+#myToolbar {
+    min-width: 400px;
+    /* top: calc(100vh - 120px); */
+    top: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    z-index: 10000;
+    pointer-events: none;
+    position: fixed;
+    /* right: 460px; */
+    left: 400px;
+    transition: all 300ms ease-in-out;
+}
+
+#myCanvas {
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    cursor: default;
+    pointer-events: all;
+    margin: 0;
+    position: relative;
+}
+
+#myNavCubeCanvas {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: 0;
+    right: 0;
+    z-index: 200000;
+}
+
+#myExplorer {
+    position: fixed;
+    height: calc(100% - 58px);
+    color: #000306;
+    /* background: rgba(44, 56, 74, 0.95); */
+    /* #03103F */
+    overflow: auto;
+    border-right: 2px solid #ebedef;
+    padding: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    user-select: none;
+    top: 65px;
+    left: 30px;
+    z-index: 1030;
+    width: 300px;
+    transition: all 300ms ease-in-out;
+}
+
+#explorer_toggle {
+    display: none;
+}
+
+.explorer_toggle_label {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    flex: 1 1 auto;
+    color: #03103F;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #1d2453;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    -webkit-appearance: button;
+    overflow: visible;
+    margin: 0 2px 0 0;
+    box-sizing: border-box;
+    align-items: flex-start;
+    pointer-events: all;
+    z-index: 100000;
+    transition: all 300ms ease-in-out;
+}
+
+.explorer_toggle_label:hover {
+    cursor: pointer;
+}
+
+#explorer_toggle:checked+.explorer_toggle_label {
+    left: 290px;
+    color: #fff;
+    background-color: #03103F;
+    border-color: #03103F;
+}
+
+#explorer_toggle:checked~#myExplorer {
+    left: 63px;
+    z-index: 1000;
+    width: 285px;
+}
+
+#explorer_toggle:checked~#myViewer {
+    /* left: 460px;
+    --left: 460;
+    width: calc(100% - (var(--left) + var(--right))); */
+    /* width: calc(100% - 360px); */
+}
+
+#explorer_toggle:checked~#myToolbar {
+    left: 555px;
+}
+
+#explorer_toggle:not(:checked)+.explorer_toggle_label {
+    left: 20px;
+    color: #fff;
+    background-color: #03103F;
+    border-color: #03103F;
+}
+
+#explorer_toggle:not(:checked)~#myExplorer {
+    left: -360px;
+    z-index: 1030;
+    width: 0;
+    padding: 0;
+    border: 0;
+}
+
+#explorer_toggle:not(:checked)~#myViewer {
+    /* left: 0;
+    --left: 0;
+    width: calc(100% - var(--right)); */
+}
+
+#explorer_toggle:not(:checked)~#myToolbar {
+    left: 95px;
+}
+
+#myInspector {
+    position: fixed;
+    height: calc(100% - 10px);
+    color: #fff;
+    background: rgba(44, 56, 74, 0.95);
+    overflow: auto;
+    border-left: 2px solid #212529;
+    padding: 0;
+    top: 65px;
+    right: -360px;
+    z-index: 40;
+    width: 300px;
+    transition: all 300ms ease-in-out;
+}
+
+#inspector_toggle {
+    display: none;
+}
+
+.inspector_toggle_label {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    flex: 1 1 auto;
+    color: #03103F;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #1d2453;
+    padding: .375rem .75rem;
+    /* FIXME */
+    border-radius: .25rem;
+    -webkit-appearance: button;
+    overflow: visible;
+    margin: 0 2px 0 0;
+    /* FIXME */
+    box-sizing: border-box;
+    align-items: flex-start;
+    pointer-events: all;
+    z-index: 100000;
+    transition: all 300ms ease-in-out;
+}
+
+.inspector_toggle_label:hover {
+    cursor: pointer;
+}
+
+#inspector_toggle:checked+.inspector_toggle_label {
+    right: 330px;
+    color: #fff;
+    background-color: #03103F;
+    border-color: #03103F;
+}
+
+#inspector_toggle:checked~#myViewer {
+    /* --right: 360;
+    right:360px;
+    width: calc(100% - (var(--left) + var(--right))); */
+}
+
+#inspector_toggle:checked~#myInspector {
+    right: 1px;
+    --right: 0;
+    width: 320px;
+}
+
+#inspector_toggle:not(:checked)~#myInspector {
+    right: -380px;
+    --right: -380px;
+    padding: 0;
+    border: 0;
+    width: 0;
+}
+
+#inspector_toggle:not(:checked)~#myViewer {
+    /* --right: 0;
+    right: 0;
+    width: calc(100% - var(--left)); */
+}

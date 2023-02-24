@@ -1,0 +1,208 @@
+[
+  {
+    "id": "1",
+    "code": "Projects",
+    "name": "Projects"
+  },
+  {
+    "id": "11",
+    "code": "Projects.View",
+    "name": "View",
+    "parentId": "1"
+  },
+  {
+    "id": "12",
+    "code": "Projects.Create",
+    "name": "Create",
+    "parentId": "1"
+  },
+  {
+    "id": "13",
+    "code": "Projects.Update",
+    "name": "Update",
+    "parentId": "1"
+  },
+  {
+    "id": "14",
+    "code": "Projects.Detete",
+    "name": "Delete",
+    "parentId": "1"
+  },
+
+  {
+    "id": "2",
+    "code": "Projects.Models",
+    "name": "Models",
+    "parentId": "1"
+  },
+  {
+    "id": "21",
+    "code": "Projects.Models.View",
+    "name": "View",
+    "parentId": "2"
+  },
+  {
+    "id": "22",
+    "code": "Projects.Models.Create",
+    "name": "Create",
+    "parentId": "2"
+  },
+  {
+    "id": "23",
+    "code": "Projects.Models.Update",
+    "name": "Update",
+    "parentId": "2"
+  },
+  {
+    "id": "24",
+    "code": "Projects.Models.Delete",
+    "name": "Delete",
+    "parentId": "2"
+  },
+  {
+    "id": "25",
+    "code": "Projects.Models.Revision.Add",
+    "name": "Add Revision",
+    "parentId": "2"
+  },
+  {
+    "id": "26",
+    "code": "Projects.Models.Revision.Delete",
+    "name": "Delete Revision",
+    "parentId": "2"
+  },
+
+  {
+    "id": "3",
+    "code": "Projects.Documents",
+    "name": "Documents",
+    "parentId": "1"
+  },
+  {
+    "id": "31",
+    "code": "Projects.Documents.View",
+    "name": "View",
+    "parentId": "3"
+  },
+  {
+    "id": "32",
+    "code": "Projects.Documents.Create",
+    "name": "Create",
+    "parentId": "3"
+  },
+  {
+    "id": "33",
+    "code": "Projects.Documents.Update",
+    "name": "Update",
+    "parentId": "3"
+  },
+  {
+    "id": "34",
+    "code": "Projects.Documents.Delete",
+    "name": "Delete",
+    "parentId": "3"
+  },
+  {
+    "id": "35",
+    "code": "Projects.Documents.Revision.Add",
+    "name": "Add Revision",
+    "parentId": "3"
+  },
+  {
+    "id": "36",
+    "code": "Projects.Documents.Revision.Delete",
+    "name": "Delete Revision",
+    "parentId": "3"
+  },
+  {
+    "id": "4",
+    "code": "Projects.Issues",
+    "name": "Issues",
+    "parentId":"1"
+  },
+  {
+    "id": "41",
+    "code": "Projects.Issues.View",
+    "name": "View",
+    "parentId": "4"
+  },
+  {
+    "id": "42",
+    "code": "Projects.Issues.Create",
+    "name": "Create",
+    "parentId": "4"
+  },
+  {
+    "id": "43",
+    "code": "Projects.Issues.Update",
+    "name": "Update",
+    "parentId": "4"
+  },
+  {
+    "id": "44",
+    "code": "Projects.Issues.Delete",
+    "name": "Delete",
+    "parentId": "4"
+  },
+  
+  {
+    "id": "5",
+    "code": "Projects.Issues.Comments",
+    "name": "Comments",
+    "parentId": "4"
+  },
+  {
+    "id": "51",
+    "code": "Projects.Issues.Comments.View",
+    "name": "View",
+    "parentId": "5"
+  },
+  {
+    "id": "52",
+    "code": "Projects.Issues.Comments.Create",
+    "name": "Create",
+    "parentId": "5"
+  },
+  {
+    "id": "53",
+    "code": "Projects.Issues.Comments.Update",
+    "name": "Update",
+    "parentId": "5"
+  },
+  {
+    "id": "54",
+    "code": "Projects.Issues.Comments.Delete",
+    "name": "Delete",
+    "parentId": "5"
+  },
+  {
+    "id": "6",
+    "code": "Projects.Members",
+    "name": "Members",
+    "parentId": "1"
+  },
+  {
+    "id": "61",
+    "code": "Projects.Members.View",
+    "name": "View",
+    "parentId": "6"
+  },
+  {
+    "id": "62",
+    "code": "Projects.Members.Create",
+    "name": "Create",
+    "parentId": "6"
+  },
+  {
+    "id": "63",
+    "code": "Projects.Members.Update",
+    "name": "Update",
+    "parentId": "6"
+  },
+  {
+    "id": "64",
+    "code": "Projects.Members.Delete",
+    "name": "Delete",
+    "parentId": "6"
+  }
+]

@@ -1,0 +1,8 @@
+// Here you can add other styles
+
+// @import "@devexpress/dx-react-grid-bootstrap4/dist/dx-react-grid-bootstrap4.css";
+@import url('devextreme/dist/css/dx.light.css');
+
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 2140px;
+}

@@ -1,0 +1,17 @@
+/* style= {
+    {
+    position: 'relative', height: '100%', width: '100%'
+  }
+} */
+
+#viewer-container{
+  /* position: relative !important;
+  height: 100% !important;
+  width: 100% !important; */
+  /* width: calc(100% - 310px); */
+}
+
+#viewer-container>canvas{
+  width: 100% !important;
+  height: 100% !important;
+}
